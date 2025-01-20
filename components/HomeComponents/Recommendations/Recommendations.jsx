@@ -18,6 +18,7 @@ const Recommendations = () => {
 
                 {isLoading ?
                     [1, 2, 3, 4].map(() => (
+                        // eslint-disable-next-line react/jsx-key
                         <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
                     ))
                     :
